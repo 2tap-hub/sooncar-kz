@@ -1,0 +1,31 @@
+:root {
+  /* Color */
+  --color-accent: #A821B6;
+  --color-bg: #FFFFFF;
+  --color-bg-subtle: #F7F9FB;
+  --color-bg-muted: #EEF2F6;
+  --color-text-primary: #27374D;
+  --color-text-secondary: #6284B2;       /* large text / UI labels only, AA large-text */
+  --color-text-secondary-small: #5978A3; /* small/body text, AA normal-text */
+
+  /* Typography */
+  --font-display: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --weight-light: 300;
+  --weight-bold: 800;
+
+  /* Spacing scale (px) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+  --space-7: 96px;
+
+  /* Layout */
+  --breakpoint-desktop: 768px;
+  --touch-target-min: 48px;
+  --radius-card: 16px;
+  --radius-button: 8px;
+}
