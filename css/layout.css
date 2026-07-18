@@ -45,6 +45,10 @@
   margin: 0 auto;
 }
 
+.feature-section__media {
+  order: -1;
+}
+
 @media (min-width: 768px) {
   .feature-section {
     flex-direction: row;
@@ -59,5 +63,9 @@
   .feature-section__content,
   .feature-section__media {
     flex: 1;
+  }
+
+  .feature-section__media {
+    order: 0;
   }
 }
