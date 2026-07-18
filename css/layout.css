@@ -81,5 +81,8 @@
 }
 
 .site-footer a {
+  display: inline-block;
+  min-height: var(--touch-target-min);
+  padding: var(--space-1) 0;
   text-decoration: underline;
 }
