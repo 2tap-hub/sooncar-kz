@@ -1,0 +1,13 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.site-header__logo {
+  height: 32px;
+  width: auto;
+}
