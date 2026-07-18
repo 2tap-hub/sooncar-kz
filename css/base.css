@@ -1,0 +1,64 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text-primary);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  margin: 0;
+  line-height: 1.15;
+}
+
+h1 {
+  font-weight: var(--weight-bold);
+  font-size: 52px; /* body is 16px -> 3.25x jump, meets the 3x+ rule */
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 76px;
+  }
+}
+
+h2 {
+  font-weight: var(--weight-bold);
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+
+h3 {
+  font-weight: var(--weight-bold);
+  font-size: 20px;
+}
+
+p {
+  margin: 0;
+}
