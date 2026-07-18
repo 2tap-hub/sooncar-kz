@@ -36,8 +36,12 @@ read as competence, not as visual noise.
   - `--color-text-secondary: #6284B2` — large text / UI labels only
     (≥18px, or ≥14px bold). Contrast on white ≈ 3.85:1 — passes AA large-text
     (3:1), fails AA normal-text (4.5:1).
-  - `--color-text-secondary-small: #5978A3` — secondary color for small/body
-    text where AA normal-text applies. Contrast on white ≈ 4.52:1 — passes AA.
+  - `--color-text-secondary-small: #55739C` — secondary color for small/body
+    text where AA normal-text applies. Contrast ≈ 4.86:1 on white, ≈ 4.61:1 on
+    `--color-bg-subtle` — passes AA normal-text (4.5:1) on every background
+    token it's actually used against (the original #5978A3 only passed on
+    pure white; it dropped to 4.29:1 on --color-bg-subtle, where it's used
+    in `.cta-card__text` and the footer — caught in Task 9 QA).
 - CSS custom properties (design tokens) for all colors — no hardcoded hex in
   components.
 - Forbidden: purple/indigo gradient heroes, generic SaaS blue-on-white.

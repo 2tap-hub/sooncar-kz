@@ -6,7 +6,7 @@
   --color-bg-muted: #EEF2F6;
   --color-text-primary: #27374D;
   --color-text-secondary: #6284B2;       /* large text / UI labels only, AA large-text */
-  --color-text-secondary-small: #5978A3; /* small/body text, AA normal-text */
+  --color-text-secondary-small: #55739C; /* small/body text, AA normal-text — 4.61:1 on --color-bg-subtle, 4.86:1 on white */
 
   /* Typography */
   --font-display: 'Montserrat', sans-serif;
