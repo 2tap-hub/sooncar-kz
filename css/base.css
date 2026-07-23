@@ -15,10 +15,12 @@ body {
   color: var(--color-text-primary);
   background: var(--color-bg);
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
 }
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -30,21 +32,17 @@ h1, h2, h3 {
   font-family: var(--font-display);
   margin: 0;
   line-height: 1.15;
+  text-wrap: balance;
 }
 
 h1 {
-  font-weight: var(--weight-bold);
-  font-size: 52px; /* body is 16px -> 3.25x jump, meets the 3x+ rule */
-}
-
-@media (min-width: 768px) {
-  h1 {
-    font-size: 76px;
-  }
+  font-weight: var(--weight-semibold);
+  /* fluid 44px (320px viewport) -> 65px (1100px viewport); 15% smaller than the original 52-76px scale */
+  font-size: clamp(2.76rem, 2.24rem + 2.62vw, 4.04rem);
 }
 
 h2 {
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-semibold);
   font-size: 28px;
 }
 
@@ -55,7 +53,7 @@ h2 {
 }
 
 h3 {
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-semibold);
   font-size: 20px;
 }
 

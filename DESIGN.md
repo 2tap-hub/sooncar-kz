@@ -20,8 +20,9 @@ read as competence, not as visual noise.
 - Never: Roboto, Open Sans, Lato, Arial, system-ui defaults.
 - Display: Montserrat.
 - Body: Inter.
-- Weight extremes for hierarchy: e.g. 300 vs 800, not 400 vs 600.
-- Size jumps of 3x+ between hero and body, not 1.5x.
+- Weight contrast for hierarchy: 300 (body/light) vs 600 (headings/semibold).
+- Large size jump between hero and body, not 1.5x (currently ~2.75x-4x fluid,
+  scaled down 15% from the original 3.25x-4.75x).
 
 ## Color & theme
 - Neutral-dominant palette + one sharp accent. No evenly-distributed palette.
@@ -48,9 +49,18 @@ read as competence, not as visual noise.
 - Contrast: WCAG AA minimum on all text.
 
 ## Motion
-- Motion budget: 2 moments maximum — page load (staggered reveal) and primary
-  CTA interaction. Everything else stays static.
-- CSS-only animations preferred. No motion that delays access to primary CTA.
+- Motion budget: page load (staggered reveal), primary CTA interaction, one
+  ambient hero moment (idle float + glow pulse on the hero phone), and the
+  scroll-driven showcase (see below). Everything else stays static.
+- Scroll-driven showcase: in the pinned-phone `#showcase` section the phone
+  stays fixed while its screen cross-fades between app screens as the caption
+  beside it changes. It is driven entirely by scroll position — no autoplay,
+  no timer — so motion only happens in response to the user's own action.
+  `prefers-reduced-motion` → instant screen switch, no float. Without JS the
+  section degrades to a readable stacked layout (phone on screen 1, all
+  captions visible); no content is gated behind a JS class.
+- CSS-only animations preferred; the showcase's active-screen tracking is the
+  one place JS drives motion. No motion that delays access to primary CTA.
 
 ## Layout
 - Mobile-first. Design and build the mobile layout before desktop.

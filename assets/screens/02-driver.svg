@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 2532" width="1170" height="2532" font-family="Inter, sans-serif">
+  <rect width="1170" height="2532" fill="#F7F9FB"/>
+  
+  
+    <text x="70" y="92" font-family="Inter, sans-serif" font-size="46" font-weight="600" fill="#27374D">9:41</text>
+    <g fill="#27374D">
+      <rect x="960" y="60" width="46" height="30" rx="6"/>
+      <rect x="1020" y="52" width="46" height="38" rx="6"/>
+      <rect x="1080" y="44" width="60" height="34" rx="8"/>
+    </g>
+  <text x="70" y="240" font-size="62" font-weight="600" fill="#27374D" text-anchor="start">Заказы рядом</text>
+  <text x="70" y="320" font-size="40" font-weight="600" fill="#A821B6" text-anchor="start">Комиссия 5%</text>
+  
+    <rect x="70" y="420" width="1030" height="380" rx="40" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="3"/>
+    <text x="130" y="530" font-size="66" font-weight="700" fill="#27374D" text-anchor="start">2 400 ₸</text>
+    <text x="1040" y="530" font-size="38" font-weight="500" fill="#6B7A90" text-anchor="end">+5,4 км</text>
+    <rect x="130" y="580" width="720" height="26" rx="13" fill="#E6EAF0"/>
+    <rect x="130" y="630" width="560" height="26" rx="13" fill="#E6EAF0"/>
+    <rect x="130" y="670" width="380" height="90" rx="45" fill="#F7F0F9" stroke="#EAD3EF" stroke-width="3"/>
+    <text x="320" y="728" font-size="36" font-weight="600" fill="#A821B6" text-anchor="middle">Вам: 2 280 ₸</text>
+    <rect x="560" y="670" width="480" height="90" rx="45" fill="#A821B6" stroke="#A821B6" stroke-width="3"/>
+    <text x="800" y="728" font-size="40" font-weight="600" fill="#fff" text-anchor="middle">Принять</text>
+  
+    <rect x="70" y="860" width="1030" height="380" rx="40" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="3"/>
+    <text x="130" y="970" font-size="66" font-weight="700" fill="#27374D" text-anchor="start">2 400 ₸</text>
+    <text x="1040" y="970" font-size="38" font-weight="500" fill="#6B7A90" text-anchor="end">+5,4 км</text>
+    <rect x="130" y="1020" width="720" height="26" rx="13" fill="#E6EAF0"/>
+    <rect x="130" y="1070" width="560" height="26" rx="13" fill="#E6EAF0"/>
+    <rect x="130" y="1110" width="380" height="90" rx="45" fill="#F7F0F9" stroke="#EAD3EF" stroke-width="3"/>
+    <text x="320" y="1168" font-size="36" font-weight="600" fill="#A821B6" text-anchor="middle">Вам: 2 280 ₸</text>
+    <rect x="560" y="1110" width="480" height="90" rx="45" fill="#A821B6" stroke="#A821B6" stroke-width="3"/>
+    <text x="800" y="1168" font-size="40" font-weight="600" fill="#fff" text-anchor="middle">Принять</text>
+  
+    <rect x="70" y="1300" width="1030" height="380" rx="40" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="3"/>
+    <text x="130" y="1410" font-size="66" font-weight="700" fill="#27374D" text-anchor="start">2 400 ₸</text>
+    <text x="1040" y="1410" font-size="38" font-weight="500" fill="#6B7A90" text-anchor="end">+5,4 км</text>
+    <rect x="130" y="1460" width="720" height="26" rx="13" fill="#E6EAF0"/>
+    <rect x="130" y="1510" width="560" height="26" rx="13" fill="#E6EAF0"/>
+    <rect x="130" y="1550" width="380" height="90" rx="45" fill="#F7F0F9" stroke="#EAD3EF" stroke-width="3"/>
+    <text x="320" y="1608" font-size="36" font-weight="600" fill="#A821B6" text-anchor="middle">Вам: 2 280 ₸</text>
+    <rect x="560" y="1550" width="480" height="90" rx="45" fill="#A821B6" stroke="#A821B6" stroke-width="3"/>
+    <text x="800" y="1608" font-size="40" font-weight="600" fill="#fff" text-anchor="middle">Принять</text>
+  
+
+</svg>

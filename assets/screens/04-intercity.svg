@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 2532" width="1170" height="2532" font-family="Inter, sans-serif">
+  <rect width="1170" height="2532" fill="#F7F9FB"/>
+  
+  
+    <text x="70" y="92" font-family="Inter, sans-serif" font-size="46" font-weight="600" fill="#27374D">9:41</text>
+    <g fill="#27374D">
+      <rect x="960" y="60" width="46" height="30" rx="6"/>
+      <rect x="1020" y="52" width="46" height="38" rx="6"/>
+      <rect x="1080" y="44" width="60" height="34" rx="8"/>
+    </g>
+  <text x="70" y="240" font-size="60" font-weight="600" fill="#27374D" text-anchor="start">Междугородние</text>
+  <rect x="70" y="340" width="1030" height="360" rx="40" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="3"/>
+  <g transform="translate(150,470) scale(0.5)"><path d="M0,-60 C33,-60 60,-33 60,0 C60,40 0,90 0,90 C0,90 -60,40 -60,0 C-60,-33 -33,-60 0,-60 Z" fill="#A821B6"/><circle cx="0" cy="-2" r="22" fill="#fff"/></g>
+  <text x="250" y="460" font-size="52" font-weight="600" fill="#27374D" text-anchor="start">Астана</text>
+  <line x1="150" y1="500" x2="150" y2="590" stroke="#E6EAF0" stroke-width="6"/>
+  <g transform="translate(150,620) scale(0.5)"><path d="M0,-60 C33,-60 60,-33 60,0 C60,40 0,90 0,90 C0,90 -60,40 -60,0 C-60,-33 -33,-60 0,-60 Z" fill="#27374D"/><circle cx="0" cy="-2" r="22" fill="#fff"/></g>
+  <text x="250" y="610" font-size="52" font-weight="600" fill="#27374D" text-anchor="start">Караганда</text>
+  <text x="1040" y="460" font-size="40" font-weight="600" fill="#27374D" text-anchor="start"></text>
+  <rect x="70" y="760" width="1030" height="300" rx="40" fill="#F7F0F9" stroke="#EAD3EF" stroke-width="3"/>
+  <text x="130" y="880" font-size="48" font-weight="600" fill="#27374D" text-anchor="start">Сегодня, 18:00</text>
+  <text x="130" y="960" font-size="38" font-weight="500" fill="#6B7A90" text-anchor="start">Фиксированная цена</text>
+  <text x="1040" y="900" font-size="66" font-weight="700" fill="#A821B6" text-anchor="end">4 500 ₸</text>
+  
+    <rect x="70" y="1140" width="1030" height="320" rx="40" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="3"/>
+    <circle cx="180" cy="1260" r="66" fill="#EDF1F5" stroke="#E6EAF0" stroke-width="3"/>
+    <text x="290" y="1240" font-size="46" font-weight="600" fill="#27374D" text-anchor="start">Toyota Camry</text>
+    <text x="290" y="1310" font-size="38" font-weight="500" fill="#6B7A90" text-anchor="start">★ 4.9 · 3 места</text>
+    <rect x="760" y="1210" width="290" height="110" rx="55" fill="#A821B6" stroke="#A821B6" stroke-width="3"/>
+    <text x="905" y="1280" font-size="40" font-weight="600" fill="#fff" text-anchor="middle">Выбрать</text>
+  
+    <rect x="70" y="1520" width="1030" height="320" rx="40" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="3"/>
+    <circle cx="180" cy="1640" r="66" fill="#EDF1F5" stroke="#E6EAF0" stroke-width="3"/>
+    <text x="290" y="1620" font-size="46" font-weight="600" fill="#27374D" text-anchor="start">Toyota Camry</text>
+    <text x="290" y="1690" font-size="38" font-weight="500" fill="#6B7A90" text-anchor="start">★ 4.9 · 3 места</text>
+    <rect x="760" y="1590" width="290" height="110" rx="55" fill="#A821B6" stroke="#A821B6" stroke-width="3"/>
+    <text x="905" y="1660" font-size="40" font-weight="600" fill="#fff" text-anchor="middle">Выбрать</text>
+  
+
+</svg>

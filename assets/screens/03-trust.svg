@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 2532" width="1170" height="2532" font-family="Inter, sans-serif">
+  <rect width="1170" height="2532" fill="#FFFFFF"/>
+  
+  
+    <text x="70" y="92" font-family="Inter, sans-serif" font-size="46" font-weight="600" fill="#27374D">9:41</text>
+    <g fill="#27374D">
+      <rect x="960" y="60" width="46" height="30" rx="6"/>
+      <rect x="1020" y="52" width="46" height="38" rx="6"/>
+      <rect x="1080" y="44" width="60" height="34" rx="8"/>
+    </g>
+  <rect x="0" y="150" width="1170" height="1470" fill="#EDF1F5"/><rect x="0" y="270" width="1170" height="34" fill="#DDE4EC"/><rect x="0" y="564" width="1170" height="34" fill="#DDE4EC"/><rect x="0" y="858" width="1170" height="34" fill="#DDE4EC"/><rect x="0" y="1152" width="1170" height="34" fill="#DDE4EC"/><rect x="0" y="1446" width="1170" height="34" fill="#DDE4EC"/><rect x="120" y="150" width="30" height="1470" fill="#DDE4EC"/><rect x="400" y="150" width="30" height="1470" fill="#DDE4EC"/><rect x="680" y="150" width="30" height="1470" fill="#DDE4EC"/><rect x="960" y="150" width="30" height="1470" fill="#DDE4EC"/><rect x="200" y="410" width="150" height="110" rx="10" fill="#F6F8FB" stroke="#E6EAF0" stroke-width="3"/><rect x="520" y="490" width="150" height="110" rx="10" fill="#F6F8FB" stroke="#E6EAF0" stroke-width="3"/><rect x="820" y="390" width="150" height="110" rx="10" fill="#F6F8FB" stroke="#E6EAF0" stroke-width="3"/><rect x="150" y="790" width="150" height="110" rx="10" fill="#F6F8FB" stroke="#E6EAF0" stroke-width="3"/><rect x="560" y="870" width="150" height="110" rx="10" fill="#F6F8FB" stroke="#E6EAF0" stroke-width="3"/><rect x="880" y="810" width="150" height="110" rx="10" fill="#F6F8FB" stroke="#E6EAF0" stroke-width="3"/><rect x="300" y="1190" width="150" height="110" rx="10" fill="#F6F8FB" stroke="#E6EAF0" stroke-width="3"/><rect x="720" y="1270" width="150" height="110" rx="10" fill="#F6F8FB" stroke="#E6EAF0" stroke-width="3"/>
+  <circle cx="600" cy="620" r="30" fill="#fff" stroke="#A821B6" stroke-width="12"/>
+  <path d="M300,1180 L600,620" stroke="#F5A623" stroke-width="16" fill="none" stroke-linecap="round" stroke-dasharray="4 34"/>
+  <g transform="translate(300,1180) scale(0.9)"><path d="M0,-60 C33,-60 60,-33 60,0 C60,40 0,90 0,90 C0,90 -60,40 -60,0 C-60,-33 -33,-60 0,-60 Z" fill="#A821B6"/><circle cx="0" cy="-2" r="22" fill="#fff"/></g>
+  <rect x="70" y="1660" width="1030" height="780" rx="44" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="3"/>
+  <text x="120" y="1780" font-size="52" font-weight="600" fill="#27374D" text-anchor="start">Через ~1 мин приедет</text>
+  <circle cx="180" cy="1930" r="70" fill="#EDF1F5" stroke="#E6EAF0" stroke-width="3"/>
+  <text x="290" y="1910" font-size="52" font-weight="700" fill="#27374D" text-anchor="start">457 NBL 01</text>
+  <text x="290" y="1980" font-size="38" font-weight="500" fill="#6B7A90" text-anchor="start">белый Mercedes Benz</text>
+  <text x="290" y="2050" font-size="40" font-weight="600" fill="#A821B6" text-anchor="start">Әділбек   ★ 4.8</text>
+  <rect x="760" y="1860" width="130" height="130" rx="65" fill="#F7F9FB" stroke="#E6EAF0" stroke-width="3"/>
+  <rect x="940" y="1860" width="130" height="130" rx="65" fill="#F7F9FB" stroke="#E6EAF0" stroke-width="3"/>
+  <rect x="120" y="2160" width="930" height="210" rx="32" fill="#F7F9FB" stroke="#E6EAF0" stroke-width="3"/>
+  <text x="585" y="2255" font-size="38" font-weight="500" fill="#6B7A90" text-anchor="middle">Ваша оценка водителя</text>
+  <text x="585" y="2330" font-size="60" font-weight="700" fill="#A821B6" text-anchor="middle">★ ★ ★ ★ ★</text>
+
+</svg>

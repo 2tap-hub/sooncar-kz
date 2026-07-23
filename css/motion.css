@@ -31,6 +31,61 @@
   box-shadow: 0 6px 16px color-mix(in srgb, var(--color-accent) 35%, transparent);
 }
 
+/* ---- Showcase: crossfade between screens ---- */
+.phone__shot {
+  opacity: 0;
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.phone__shot.is-active {
+  opacity: 1;
+}
+
+/* Caption emphasis is a JS-only enhancement: without JS every step stays
+   fully legible (no content gated behind a class). */
+.js .showcase__step {
+  transition: opacity 0.4s ease;
+}
+
+@media (min-width: 768px) {
+  .js .showcase__step {
+    opacity: 0.28;
+  }
+
+  .js .showcase__step.is-current {
+    opacity: 1;
+  }
+}
+
+/* ---- Hero ambient float ---- */
+@keyframes hero-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes hero-glow-pulse {
+  0%, 100% {
+    opacity: 0.55;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+  50% {
+    opacity: 0.85;
+    transform: translate(-50%, -50%) scale(1.04);
+  }
+}
+
+.hero__mockup {
+  animation: hero-float 6s ease-in-out infinite;
+}
+
+.hero__media .phone-glow {
+  animation: hero-glow-pulse 6s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     animation: none;
@@ -40,5 +95,18 @@
 
   .store-button {
     transition: none;
+  }
+
+  .phone__shot {
+    transition: none;
+  }
+
+  .js .showcase__step {
+    transition: none;
+  }
+
+  .hero__mockup,
+  .hero__media .phone-glow {
+    animation: none;
   }
 }
