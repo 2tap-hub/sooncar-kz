@@ -23,7 +23,7 @@
 /* ---- Phone device frame (reusable) ---- */
 .phone {
   --bezel: 11px;
-  --screen-radius: 40px;
+  --screen-radius: 28px;
   position: relative;
   width: 100%;
   max-width: 300px;
@@ -62,7 +62,7 @@
 @media (max-width: 767px) {
   .phone {
     --bezel: 7px;
-    --screen-radius: 34px;
+    --screen-radius: 22px;
   }
 }
 
@@ -76,13 +76,13 @@
 
 .phone__island {
   position: absolute;
-  top: 13px;
+  top: 14px;
   left: 50%;
   transform: translateX(-50%);
-  width: 31%;
-  height: 25px;
+  width: 22%;
+  height: 18px;
   background: #05070a;
-  border-radius: 14px;
+  border-radius: 10px;
   z-index: 3;
   pointer-events: none;
 }
