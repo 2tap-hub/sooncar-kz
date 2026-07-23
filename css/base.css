@@ -7,6 +7,20 @@ html, body {
   padding: 0;
 }
 
+html {
+  /* Gives each showcase caption a felt "catch" so a fast scroll gesture
+     settles on one rather than sailing past it mid-transition. Only
+     .showcase__step opts in via scroll-snap-align, so sections without it
+     (hero, final-cta) scroll through normally, unaffected. */
+  scroll-snap-type: y mandatory;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-snap-type: none;
+  }
+}
+
 body {
   font-family: var(--font-body);
   font-weight: 400;

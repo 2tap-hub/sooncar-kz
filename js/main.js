@@ -104,7 +104,7 @@
   var CROP_FRACTION = 0.22;   // final pinned crop height, as a fraction of viewport height
   var WIDTH_START = 0.60;     // initial fully-visible phone width, as a fraction of viewport width
   var WIDTH_END = 0.90;       // final cropped phone width, as a fraction of viewport width
-  var GROW_VH = 1.0;          // scroll distance (in viewport heights) over which the grow completes
+  var GROW_VH = 0.35;         // scroll distance (in viewport heights) over which the grow completes
 
   var introTop = 0;
   var ticking = false;
