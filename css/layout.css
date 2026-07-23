@@ -52,7 +52,9 @@
 
 @media (max-width: 767px) {
   #hero h1 {
-    font-size: 2.15rem;
+    /* bigger than the showcase steps' 28px h2 (base.css) so the USP still
+       reads as the page's top-level headline, not a same-weight block title */
+    font-size: 2.4rem;
   }
 }
 
