@@ -118,21 +118,36 @@
   max-width: 46ch;
 }
 
-/* Mobile: phone pinned at the top, captions scroll beneath it */
+/* Mobile: a cropped sliver of the phone (bottom edge only) stays pinned at
+   the top so the rest of the viewport is guaranteed free for the caption
+   text to display in full, however long, without extra scrolling. */
 @media (max-width: 767px) {
   .showcase__stage {
     position: sticky;
     top: 0;
     z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    background: linear-gradient(var(--color-bg) 76%, transparent);
+    width: 100vw;
+    margin-inline: calc(-1 * var(--space-3));
+    height: 30vh;
+    overflow: hidden;
+  }
+
+  .showcase__stage::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(var(--color-bg), transparent 30%);
+    pointer-events: none;
   }
 
   .showcase__stage .phone {
-    max-width: 190px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 90vw;
+    max-width: none;
   }
 
   .showcase__stage .phone-glow {
@@ -141,8 +156,7 @@
 
   .showcase__step {
     min-height: 56vh;
-    justify-content: flex-start;
-    padding-top: var(--space-3);
+    justify-content: center;
   }
 
   .showcase__step:last-child {
