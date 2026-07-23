@@ -23,7 +23,7 @@
 /* ---- Phone device frame (reusable) ---- */
 .phone {
   --bezel: 11px;
-  --screen-radius: 28px;
+  --screen-radius: 40px;
   position: relative;
   width: 100%;
   max-width: 300px;
@@ -62,7 +62,7 @@
 @media (max-width: 767px) {
   .phone {
     --bezel: 7px;
-    --screen-radius: 22px;
+    --screen-radius: 28px;
   }
 }
 
