@@ -118,9 +118,10 @@
   max-width: 46ch;
 }
 
-/* Mobile: a cropped sliver of the phone (bottom edge only) stays pinned at
-   the top so the rest of the viewport is guaranteed free for the caption
-   text to display in full, however long, without extra scrolling. */
+/* Mobile: the phone starts small and fully visible (~60vw), then scroll
+   grows and crops it down to a bottom-anchored sliver pinned at the top
+   (see js/main.js) — reversible, so scrolling back up reveals the whole
+   screen again. The CSS values below are the pre-JS/no-JS starting state. */
 @media (max-width: 767px) {
   .showcase__stage {
     position: sticky;
@@ -128,25 +129,16 @@
     z-index: 1;
     width: 100vw;
     margin-inline: calc(-1 * var(--space-3));
-    height: 30vh;
+    height: calc(60vw * 2.1641 + 14px + var(--space-5));
     overflow: hidden;
-  }
-
-  .showcase__stage::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    background: linear-gradient(var(--color-bg), transparent 30%);
-    pointer-events: none;
   }
 
   .showcase__stage .phone {
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: var(--space-5); /* reserves room so the phone's drop shadow fades out instead of being clipped */
     transform: translateX(-50%);
-    width: 90vw;
+    width: 60vw;
     max-width: none;
   }
 
